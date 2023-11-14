@@ -1,11 +1,11 @@
 function setup() {
   createCanvas(600, 600);
-  background("black");
+  background("white");
 }
 
 function draw() {
-    stroke("white");
-    fill("red");
+    stroke("black");
+    fill("black");
    
   if (mouseIsPressed){
       rect(mouseX, mouseY, 20, 35)
